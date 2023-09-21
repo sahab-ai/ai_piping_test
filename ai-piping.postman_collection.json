@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "19c70599-5ae2-467e-a822-03016616df23",
+		"name": "ai-piping",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27198603"
+	},
+	"item": [
+		{
+			"name": "recommend",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Canada\",\n    \"season\": \"winter\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:3000/recommendations/",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3000",
+					"path": [
+						"recommendations",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
